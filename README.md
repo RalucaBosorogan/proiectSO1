@@ -1,4 +1,8 @@
 # proiectSO
+
+*       Phase 1        *
+========================
+
 Proiect Sisteme de Operare, Raluca Bosorogan
 
 Comanda compilare: gcc -o treasure_manager ./treasure_manager.c
@@ -60,4 +64,13 @@ Hunt 'Hunt01' removed.
 Hunt 'Hunt02' removed.
   ./treasure_manager --remove_hunt Hunt03
 Hunt 'Hunt03' removed.
+
+*       Phase 2        *
+========================
+Comanda compilare:  gcc -o treasure_hub treasure_hub.c 
+Comanda rulare: ./treasure_hub 
+
+  commands:
+    start_monitor, list_hunts, list_treasures, view_treasure, stop_monitor, exit
+
   
